@@ -27,4 +27,4 @@ jobs:
         run: pytest test_script.py
 
       - name: Exécuter le script Selenium
-        run: python script_Ex2.py
+        run: sudo python script_Ex2.py
