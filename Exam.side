@@ -1,0 +1,252 @@
+{
+  "id": "8759b9a3-4b98-43a0-9ab4-f881928348e3",
+  "version": "2.0",
+  "name": "Exam",
+  "url": "https://www.lavoixdunord.fr/",
+  "tests": [{
+    "id": "f4beba00-8e8f-4dca-bbcc-d972209b4fa7",
+    "name": "test1",
+    "commands": [{
+      "id": "a25389fe-df7f-4ebd-99ab-e6673f44abc4",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.lavoixdunord.fr/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "128e8442-3f30-40c9-9359-ae6ebaed75f0",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1400x835",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "23e51597-887e-452e-87d2-c8c8c0846d60",
+      "comment": "",
+      "command": "click",
+      "target": "css=.r-sso--login > .js-sso--user",
+      "targets": [
+        ["css=.r-sso--login > .js-sso--user", "css:finder"],
+        ["xpath=//r-sso[@id='r-selligent--header-cta']/a/span", "xpath:idRelative"],
+        ["xpath=//r-sso/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Se connecter')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "902989bb-7d26-4335-af9f-28c538843b75",
+      "comment": "",
+      "command": "type",
+      "target": "id=login",
+      "targets": [
+        ["id=login", "id"],
+        ["name=login", "name"],
+        ["css=#login", "css:finder"],
+        ["xpath=//input[@id='login']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "test.exam.indust@yopmail.fr"
+    }, {
+      "id": "0b085844-16b0-4916-a326-60a806b07992",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "Test.exam1"
+    }, {
+      "id": "9d26e66a-51b6-49ce-b5b5-6f5d66de4d10",
+      "comment": "",
+      "command": "click",
+      "target": "id=login",
+      "targets": [
+        ["id=login", "id"],
+        ["name=login", "name"],
+        ["css=#login", "css:finder"],
+        ["xpath=//input[@id='login']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5e2bc7ad-09d8-4cfd-96ab-92829128b6a3",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ca4aa436-d285-4f64-8976-41a04682236a",
+      "comment": "",
+      "command": "click",
+      "target": "id=togglePassword",
+      "targets": [
+        ["id=togglePassword", "id"],
+        ["css=#togglePassword", "css:finder"],
+        ["xpath=//i[@id='togglePassword']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/div[2]/i", "xpath:idRelative"],
+        ["xpath=//i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b18900d4-da8c-419c-a446-e58fa743f1ff",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c3291815-2fec-43f5-98e4-112bba97711a",
+      "comment": "",
+      "command": "click",
+      "target": "id=btn-connexion",
+      "targets": [
+        ["id=btn-connexion", "id"],
+        ["css=#btn-connexion", "css:finder"],
+        ["xpath=//input[@id='btn-connexion']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/div[5]/div/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8253a23c-6a18-4c37-bfb0-0457d45666b4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.r-btn > .r-icon--search",
+      "targets": [
+        ["css=.r-btn > .r-icon--search", "css:finder"],
+        ["xpath=//r-header[@id='header']/i-header/button/r-icon", "xpath:idRelative"],
+        ["xpath=//i-header/button/r-icon", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "962e8829-7cc1-4ba4-9d5b-4273e8b7cc22",
+      "comment": "",
+      "command": "click",
+      "target": "name=word",
+      "targets": [
+        ["name=word", "name"],
+        ["css=.r-dropdown > .r-search--input", "css:finder"],
+        ["xpath=//input[@name='word']", "xpath:attributes"],
+        ["xpath=//r-header[@id='header']/i-header/form/input", "xpath:idRelative"],
+        ["xpath=//i-header/form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "104853bd-01bb-4790-b6eb-a8fba05fd631",
+      "comment": "",
+      "command": "type",
+      "target": "name=word",
+      "targets": [
+        ["name=word", "name"],
+        ["css=.r-dropdown > .r-search--input", "css:finder"],
+        ["xpath=//input[@name='word']", "xpath:attributes"],
+        ["xpath=//r-header[@id='header']/i-header/form/input", "xpath:idRelative"],
+        ["xpath=//i-header/form/input", "xpath:position"]
+      ],
+      "value": "inondation"
+    }, {
+      "id": "9f540f11-427f-4209-b138-731bc7f2b7ad",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=word",
+      "targets": [
+        ["name=word", "name"],
+        ["css=.r-dropdown > .r-search--input", "css:finder"],
+        ["xpath=//input[@name='word']", "xpath:attributes"],
+        ["xpath=//r-header[@id='header']/i-header/form/input", "xpath:idRelative"],
+        ["xpath=//i-header/form/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "ccc37504-c498-48e5-9966-73121591437d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Inondations : le Pas-de-Calais toujours en vigilance orange, mais «une accalmie générale» est en cours",
+      "targets": [
+        ["linkText=Inondations : le Pas-de-Calais toujours en vigilance orange, mais «une accalmie générale» est en cours", "linkText"],
+        ["css=.r-viewmode--archive:nth-child(4) .r-article--link", "css:finder"],
+        ["xpath=//r-main[@id='main']/i-main/r-viewmode/article/h3/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/1434892/article/2024-02-27/inondations-le-pas-de-calais-toujours-en-vigilance-orange-mais-une-accalmie')])[2]", "xpath:href"],
+        ["xpath=//h3/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Inondations : le Pas-de-Calais toujours en vigilance orange, mais «une accalmie générale» est en cours')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ff635c99-4456-4670-a7ac-62fc3ce841a3",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=r-article--chapo",
+      "targets": [
+        ["css=r-article--chapo", "css:finder"],
+        ["xpath=//r-main[@id='main']/section/article/header/r-article--chapo", "xpath:idRelative"],
+        ["xpath=//r-article--chapo", "xpath:position"],
+        ["xpath=//r-article--chapo[contains(.,'Le département du Pas-de-Calais reste placé en vigilance orange pour crues et L’Aa et la Lys amont-Laquette sont particulièrement sous surveillance. Toutefois, Vigicrues indique qu’une «accalmie générale» est en cours.')]", "xpath:innerText"]
+      ],
+      "value": "Le département du Pas-de-Calais reste placé en vigilance orange pour crues et L’Aa et la Lys amont-Laquette sont particulièrement sous surveillance. Toutefois, Vigicrues indique qu’une «accalmie générale» est en cours."
+    }, {
+      "id": "746981f6-a787-4b56-936d-c63ec9807445",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js-sso--user-first-name:nth-child(1)",
+      "targets": [
+        ["css=.js-sso--user-first-name:nth-child(1)", "css:finder"],
+        ["xpath=//r-sso[@id='r-selligent--header-cta']/a[2]/span/span", "xpath:idRelative"],
+        ["xpath=//span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5ecf88d5-d12e-4f08-b3f2-74fe6c51a4ae",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Déconnexion",
+      "targets": [
+        ["linkText=Déconnexion", "linkText"],
+        ["css=.r-menu--user > a:nth-child(6)", "css:finder"],
+        ["xpath=//a[contains(text(),'Déconnexion')]", "xpath:link"],
+        ["xpath=//r-header[@id='header']/i-header/r-menu[3]/a[5]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://login.lavoix.com/html/logout?unitId=lavoixdunord_www_prod&amp;returnPage=http%3A%2F%2Fwww.lavoixdunord.fr/la-une')]", "xpath:href"],
+        ["xpath=//r-menu[3]/a[5]", "xpath:position"],
+        ["xpath=//a[contains(.,'Déconnexion')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ff7418cd-6442-46d9-98d8-ef606663fd7f",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "4f6b5e6a-ec30-4023-bfc8-f9dc724cd58a",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["f4beba00-8e8f-4dca-bbcc-d972209b4fa7"]
+  }],
+  "urls": ["https://www.lavoixdunord.fr/"],
+  "plugins": []
+}
