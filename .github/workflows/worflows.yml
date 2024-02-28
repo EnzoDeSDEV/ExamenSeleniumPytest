@@ -1,0 +1,29 @@
+name: Selenium Workflow
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  selenium:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout du code
+      uses: actions/checkout@v2
+
+    - name: Setup Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.8
+
+    - name: Télécharger et configurer le pilote Chrome
+      run: |
+        wget https://chromedriver.storage.googleapis.com/$(curl -sS https://chromedriver.storage.googleapis.com/LATEST_RELEASE)/chromedriver_linux64.zip
+        unzip chromedriver_linux64.zip
+        chmod +x chromedriver
+        sudo mv chromedriver /usr/local/bin/
+
+    - name: Exécuter le script Selenium
+      run: python script_Ex2.py
