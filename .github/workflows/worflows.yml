@@ -29,6 +29,9 @@ jobs:
         unzip chromedriver_linux64.zip
         chmod +x chromedriver
         sudo mv chromedriver /usr/local/bin/
+        
+    - name: Afficher la version du chromedriver
+      run: chromedriver --version
 
     - name: Exécuter le script Selenium
       run: python script_Ex2.py
