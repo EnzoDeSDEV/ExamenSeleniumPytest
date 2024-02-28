@@ -1,0 +1,7 @@
+# requirements.txt
+
+# Utilise la dernière version de Python 3
+python_version >= "3.9"
+
+# Utilise la dernière version de Selenium
+selenium >= 3.141.0
