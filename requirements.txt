@@ -4,4 +4,4 @@
 python_version >= "3.8"
 
 # Utilise la dernière version de Selenium
-selenium >= 3.141.0
+selenium >= 4.18.1
