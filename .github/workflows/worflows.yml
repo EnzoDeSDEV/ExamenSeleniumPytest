@@ -26,5 +26,8 @@ jobs:
       - name: Afficher la version de Google Chrome
         run: google-chrome --version
 
+      - name: Éxécuter les tests
+        run: pytest test_scrip.py
+
       - name: Exécuter le script Selenium
         run: python script_Ex2.py
