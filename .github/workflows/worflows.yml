@@ -23,8 +23,5 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Installer le driver chrome
-        run: sudo apt-get -y install chromium-chromedriver
-
       - name: Exécuter le script Selenium
         run: python script_Ex2.py
